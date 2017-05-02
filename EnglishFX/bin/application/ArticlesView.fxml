@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="650.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PodcastsController">
+   <children>
+      <TabPane layoutX="123.0" layoutY="122.0" prefHeight="650.0" prefWidth="750.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="6 minutes English">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Accordion layoutX="79.0" layoutY="118.0" prefHeight="499.0" prefWidth="750.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="118.0">
+                          <panes>
+                            <TitledPane animated="false" text="Cities of the future">
+                                 <content>
+                                    <AnchorPane prefHeight="280.0" prefWidth="779.0">
+                                       <children>
+                                          <Button fx:id="playButton1" layoutX="141.0" layoutY="53.0" mnemonicParsing="false" onAction="#playPauseAudio1" prefHeight="0.0" prefWidth="494.0" text="►">
+                                             <font>
+                                                <Font name="Roboto Light" size="20.0" />
+                                             </font>
+                                          </Button>
+                                          <TextArea editable="false" layoutX="17.0" layoutY="138.0" prefHeight="276.0" prefWidth="741.0" text="Alice : Hello and welcome to 6 Minute English. I'm Alice…&#10;&#10;Neil : And I'm Neil.&#10;&#10;Alice : Have you ever played SimCity, Neil – the city-building computer game?&#10;&#10;Neil : Yes, but I wasn't very good at it. I didn't build enough houses, which created a lot of homeless Sims – &#10;those are the characters in the game. And then I didn't deal effectively with a flood…&#10;&#10;Alice : Really? Well, I suppose managing a city is quite a challenge – which is the subject of today's show: cities of the future – an important subject as so many of us now live in urban areas. I want to start with our quiz question: What is the percentage of the world's population that will be living in cities in 2050? We're dealing with approximates &#10;here. Is it…a) 10%? b) 50%? or c) 70%?&#10;&#10;Neil : I think that it's a) 10%.&#10;&#10;Alice : Well, we'll find out if you're right or wrong later on in the show. Now, you've encountered a couple of issues &#10;that might face urban planners when designing a city, Neil – housing and dealing with a flood. Can you think of any &#10;others?&#10;&#10;Neil : Yes. Having decent cycle lanes. Good transport networks are very important.&#10;&#10;Alice : Yes indeed, and if people could get around easily on foot, or by bike, or by public transport, roads would be &#10;less congested – or overcrowded – and less polluted. That sounds rather utopian to me though.&#10;&#10;Neil : A utopia is an imaginary place where everything is perfect. But Copenhagen is pretty utopian, Alice - the air is &#10;clean, there are bike lanes everywhere.&#10;&#10;Alice : That sounds fantastic, but what about somewhere like Beijing with its constant smog – or air pollution – hanging &#10;over the city? A lot of people ride bikes there too. So which city is going to be the model for the future?&#10;&#10;Neil : Maybe like the future Los Angeles in the movie Blade Runner – you know, glittering high-rises, gigantic neon&#10; billboards, flying cars…&#10;&#10;Alice : Well, today's Los Angeles has terrible urban sprawl and traffic problems.&#10;&#10;Neil : Urban sprawl is the way a city spreads into undeveloped land around it, often without planning permission.&#10;&#10;Alice : Dr Janice Pearlman can explain why this happens. She is the founder and president of the Megacities Project &#10;non-profit organization in Rio de Janeiro and knows a lot about urban sprawl in Brazilian cities.&#10;&#10;INSERT&#10;Dr Janice Pearlman, founder and president of the Megacities Project non-profit organization, Rio de Janeiro&#10;People are coming massively into the cities which have no housing that's affordable to them. So they can't rent and &#10;they can't buy, and they end up building their own communities and houses on unoccupied land. And these &#10;communities are becoming in some places the majority not the minority and they're off the grid so they're not often &#10;serviced by either the social services but also many of them don't have water, sanitation and electricity.&#10;&#10;Neil : People migrate – or move – from the countryside to the city to get better opportunities, but end up with nowhere&#10; to live.&#10;&#10;Alice : So they build their own housing on unoccupied land. These shanty towns – poor communities where the houses &#10;are built out of cheap materials like corrugated iron and plastic sheeting – are often off the grid…&#10;&#10;Neil : Which means they don't have an electricity or water supply – or access to healthcare and education. And these &#10;communities are growing, so the problem is getting bigger. So are there any solutions, Alice?&#10;&#10;Alice : Well, it's all about improving the infrastructure. That's the basic facilities a town or city needs, for example: &#10;communication, transport, water, and electricity. But this shouldn't only mean improving housing conditions, but also &#10;promoting education and employment among the inhabitants, and building better communities.&#10;&#10;Neil : That sounds like a real headache for the urban planners.&#10;&#10;Alice : You're right there. And one thing urban planners are talking about at the moment is creating 'smart cities'. &#10;John Rossant, founder and chairman of the non-profit organisation New Cities Foundation, explains what it is.&#10;&#10;INSERT&#10;John Rossant, founder and chairman of the non-profit organisation New Cities Foundation, New York City&#10;I think, you know, generally it's accepted that cloud computing, ubiquitous internet, robust 5G networks etc, will&#10; transform our cities, whether they're in the global south or the developed world. And, you know, technology is really &#10;a game changer, I think, in urbanisation.&#10;&#10;Neil : John Rossant there. What's ubiquitous, Alice?&#10;&#10;Alice : It means available everywhere. So, the idea behind smart cities is to use technology to collect large amounts of data about how a city is performing.&#10;&#10;Neil : And that will be a game changer – significantly affecting the way our cities function.Hope for the future, Alice?&#10;&#10;Alice : Fingers crossed. Now, I think it's time for the answer to today's quiz question, Neil. I asked: What is the percentage of the world's population that will be living in cities in 2050? And remember I said we are dealing with approximates here? Is it…  a) 10%? b) 50%? Or c) 70%?&#10;&#10;Neil : And I said a) 10%.&#10;&#10;Alice : Yes, and you underestimated there, Neil. The right answer is actually c) 70%. This, according to a report by the United Nations. Today 54% of the world’s population lives in urban areas.&#10;&#10;Neil : A lot really!&#10;&#10;Alice : Yeah.&#10;&#10;Neil : Well, I know we're running out of time, so let me repeat the words we learned today. They were:&#10;congested&#10;utopia&#10;smog&#10;urban sprawl&#10;migrate&#10;shanty towns&#10;off the grid&#10;infrastructure&#10;ubiquitous&#10;game changer&#10;&#10;Alice : Well, that's the end of this edition of 6 Minute English. Join us again soon! Meanwhile, visit our website: bbclearningenglish.com, where you'll find guides to grammar, exercises, videos and articles to read and improve your English.&#10;&#10;Both : Bye!" wrapText="true">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </TextArea>
+                                          <Text layoutX="345.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transcript">
+                                             <font>
+                                                <Font name="Roboto Light" size="19.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                            </TitledPane>
+                            <TitledPane animated="false" text="Brain training with English">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <Text layoutX="331.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transcript">
+                                             <font>
+                                                <Font name="Roboto Light" size="19.0" />
+                                             </font>
+                                          </Text>
+                                          <TextArea editable="false" layoutX="4.0" layoutY="103.0" prefHeight="276.0" prefWidth="741.0" text="Sophie : Hello and welcome to 6 Minute English. I'm Sophie…&#10;&#10;Neil : Watashi-wa Ni-ru.&#10;&#10;Sophie : What did you say?&#10;&#10;Neil : Watashi-wa Ni-ru. 'I'm Neil.' It's Japanese, Sophie.&#10;&#10;Sophie : Very good, Neil! So your Japanese language lessons are going well, then?&#10;&#10;Neil : They are indeed. And did you know, Sophie, that scientists believe learning a second language can boost brainpower? Bilingualism – or speaking two languages equally well – is a form of brain training.&#10;&#10;Sophie : Brain training is where you're learning ways to increase your memory or intelligence. That's great Neil – but you're not exactly… bilingual… are you?&#10;&#10;Neil : Not yet. No.&#10;&#10;Sophie : Well, brain training is the subject of today's show. And ways to train your brain might be doing a crossword puzzle, playing chess, or studying a new language! Now I have a question for you, Neil.&#10;&#10;Neil : I hope my brain is up to the challenge.&#10;&#10;Sophie : I'm sure it is. Can you tell me: How many neurons – or nerve cells – are there in the typical human brain? Is it … a) 8.6 billion b) 86 billion or c) 860 billion&#10;&#10;Neil : Hmm. I'm going to say a) 8.6 billion.&#10;&#10;Sophie : Well, we'll find out later on in the show whether you got the answer right or not. But now let's listen to neuropsychologist Dr Catherine Loveday talking about why being bilingual may protect your brain from damage if you have a stroke.&#10;&#10;INSERT&#10;Dr Catherine Loveday, neuropsychologist&#10;I think the theory behind why bilingualism might be a protective factor is that [it] involves a lot of switchings – a lot of attentional changes – lots of switching. And that seems to exercise the sort of executive parts of our brain. Those parts of the brain are kind of stronger and fitter when it comes to resisting some kind of damage from the stroke.&#10;&#10;Neil : A stroke is a serious illness that occurs when blood flow to an area of the brain is cut off. And executive functions are the mental skills involved in doing things like problem solving and planning.&#10;&#10;Sophie : So when a bilingual speaker switches – or changes – from one language to another – this exercises the executive parts of their brain, making it stronger and fitter. And because the brain is stronger, it's able to resist – or prevent – damage caused by a stroke.&#10;&#10;Neil : But many of us aren't bilingual are we? So our brains aren't going to be protected against strokes.&#10;&#10;Sophie : Don't worry, Neil. There are other things you can do to exercise your brain. If you're right handed, doing tasks like brushing your teeth with your left hand will stimulate your brain – or getting dressed in the dark with your eyes shut. Or simply memorizing a list of words, for example your shopping list.&#10;&#10;Neil : Doing things with the wrong hand sounds hard. But the shopping list thing sounds easier… OK. Let's see… pizza, doughnuts, crisps, bottle of coke, chocolate cake…&#10;&#10;Sophie : That's not a very healthy list, Neil! A good diet is also important in keeping your brain fit and healthy.&#10;&#10;Neil : Maybe I should cut down on the chocolate cake then?&#10;&#10;Sophie : Actually, that's one thing you could leave on the list. According to research, chocolate may enhance – or improve – cognitive performance, and that is your ability to acquire and utilize knowledge. Now let's listen to Dr Loveday talking about building up our cognitive reserve – this is the idea of building up extra abilities to help protect the brain against declining memory or thinking.&#10;&#10;INSERT&#10;Dr Catherine Loveday, neuropsychologist&#10;Continually just stimulating the brain – things like learning a language, learning music, just educating yourself, seems to continue to build up that cognitive reserve. So even if people take up languages or take up other things later in life it will give them a degree of protection.&#10;&#10;Neil : Stimulate means to make something become more active. Hmm. Not sure I'm continually stimulating my brain. What do you think, Sophie?&#10;&#10;Sophie : With all our stimulating discussions, Neil, I'm sure we're both building up our cognitive reserve. And there are your Japanese lessons too.&#10;&#10;Neil : Well, so I am doing well as far as my cognitive reserve goes. Sophie you've put my mind at rest.&#10;&#10;Sophie : And if you put someone's mind at rest you stop them worrying. Well, don't get too relaxed Neil – your brain needs constant stimulation, remember?&#10;&#10;Neil : Hmm. I think I might just lie down after the show with a box of chocolates and today's crossword… or maybe I'll memorize another shopping list… this time in Japanese.&#10;&#10;Sophie : OK. I think it's time to hear the answer to today's quiz question. I asked: How many neurons are there in the typical human brain? Is it … a) 8.6 billion b) 86 billion or c) 860 billion?&#10;&#10;Neil : And I said a) 8.6 billion.&#10;&#10;Sophie : I thought you were feeling clever today, Neil. I'm afraid that's the wrong answer. It's b) 86 billion. But do you know how scientists calculated that number?&#10;&#10;Neil : Did they have a guess, Sophie?&#10;&#10;Sophie : No, not exactly. Apparently, the easiest way is to count how many neurons there are in one part of the brain and then multiply that for the rest of the brain's volume.&#10;&#10;Neil : Well, that's a lot of brain cells. OK, can we hear the words we learned today?&#10;&#10;Sophie : They are:&#10;bilingualism&#10;brain training&#10;neurons&#10;stroke&#10;executive functions&#10;switches&#10;resist&#10;enhance&#10;cognitive reserve&#10;stimulate&#10;put someone's mind at rest&#10;&#10;Neil : Well, that's the end of today's 6 Minute English. Don't forget to join us again soon!&#10;&#10;Both : Bye." wrapText="true">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </TextArea>
+                                          <Button fx:id="playButton2" layoutX="128.0" layoutY="14.0" mnemonicParsing="false" onAction="#playPauseAudio2" prefHeight="0.0" prefWidth="494.0" text="►">
+                                             <font>
+                                                <Font name="Roboto Light" size="20.0" />
+                                             </font>
+                                          </Button>
+                                       </children></AnchorPane>
+                              </content>
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                            </TitledPane>
+                              <TitledPane animated="false" text="Young in business">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <Button fx:id="playButton3" layoutX="128.0" layoutY="21.0" mnemonicParsing="false" onAction="#playPauseAudio3" prefHeight="0.0" prefWidth="494.0" text="►">
+                                             <font>
+                                                <Font name="Roboto Light" size="20.0" />
+                                             </font>
+                                          </Button>
+                                          <TextArea editable="false" layoutX="4.0" layoutY="117.0" prefHeight="276.0" prefWidth="741.0" text="Alice : Hello and welcome to 6 Minute English. I'm Alice…&#10;&#10;Rob : … And I'm Rob.&#10;&#10;Alice : So Rob, did you have a part time job while you were at university?&#10;&#10;Rob : Yes, I worked in the student bar.&#10;&#10;Alice : Did you learn anything from the experience?&#10;&#10;Rob : I learned how to pull a decent pint.&#10;&#10;Alice : Did you learn anything else?&#10;&#10;Rob : Yes, I learned how to add up.&#10;&#10;Alice : Didn't they teach you that at school?&#10;&#10;Rob : I wasn't good at doing sums in my head – you know – mental arithmetic. But I got pretty good at it as a barman. They didn't have computerized cash registers in my day, you see.&#10;&#10;Alice : I didn't realize you were that old, Rob! Anyway, the subject of today's show is young business entrepreneurs. So, can you answer this question: How young were the founders of Facebook and Microsoft when they first set up their companies? Were they… a) junior high-school students b) high-school students or c) university students?&#10;&#10;Rob : And Alice in case you think I don't know, Facebook is an online social networking service and Microsoft is a computer software company. OK?&#10;&#10;Alice : Well done!&#10;&#10;Rob : Well I'm going to say they were b) high-school students.&#10;&#10;Alice : We'll find out if you chose the right answer later on in the programme. But let's talk now about what drawbacks – or disadvantages – there are for young entrepreneurs. What do you think, Rob?&#10;&#10;Rob : Hmm. Well, I suppose one of the drawbacks of being young and your own boss is that everyone who works for you is older than you!&#10;&#10;Alice : Is that a drawback?&#10;&#10;Rob : Well, let's consider a real case. Young British entrepreneur Suleman Sacranie started his first company when he was 17, followed by another business shortly afterwards. Then whilst studying chemistry at university he started his third company, an online version of the pound shop – or dollar store in the US – where everything in the shop is priced at one pound. Let's listen to Suleman Sacranie talking about his company.&#10;&#10;INSERT&#10;Suleman Sacranie, founder of online wholesaler 99pwholesaler.com&#10;I'm actually quite fortunate now, compared to what I was six months ago because now I've got two additional directors who have grey hair. It actually… commercial meetings are excellent now, you know. But before that I think I came across quite professional but you could still tell they were thinking in the back of their heads, 'I've got a kid sitting in front of me.'&#10;&#10;Rob : So young entrepreneur Suleman Sacranie has got two grey-haired directors working with him now.&#10;&#10;Alice : That's right – but how does having grey-haired executives on board help, Rob?&#10;&#10;Rob : Well, 'executives' are people who run a business and on board means being part of a team. Well, to answer your question, Alice, they bring experience to the table. I have a few grey hairs you know – you could learn a lot from me.&#10;&#10;Alice : I do, Rob. Everyday. And if you bring something to the table it means you provide something useful. Well, what do you bring to the table, Rob?&#10;&#10;Rob : Well, bad jokes, peanuts, crisps, cups of coffee, that sort of thing…&#10;&#10;Alice : I was going to say a keen mind, in other words, a well-developed mind, and… great business acumen!&#10;&#10;Rob : Come on, you weren't going to say that!&#10;&#10;Alice : You're right, I wasn't. Acumen means good judgement. But don't worry, you have an abundant enthusiasm that makes up for it. But moving on now, do you think that school prepared you well for working life?&#10;&#10;Rob : No, not really. I studied Latin at school, and I don't use that much. And maths – well, I never use trigonometry or calculus. So I'm not sure how useful maths lessons were…&#10;&#10;Alice : Yes, and you only learned to add up in the university bar after all…&#10;&#10;Rob : Yes, but I am very good at it! And the point is that I've got a fantastic job now. And if you're really interested in something you can always acquire – or get – the skills you don't have. Let's listen to successful young entrepreneur Jessica Rose talking about her experience. She works with jewellery.&#10;&#10;INSERT&#10;Jessica Rose, owner of a jewellery making business&#10;I didn't need all these previous skills and experience to go out there and start on my own. When I first started I had no business training whatsoever, no jewellery training whatsoever, but I kind of woke up one day and thought I'd really love to be a jewellery designer. Which is kind of a tricky position to be in, because it's you know, a lot of people would say and did say, well, you know, you're mad.&#10;&#10;Alice : So Jessica Rose used her savings to learn jewellery making and then set up her own jewellery-making business.&#10;&#10;Rob : And despite setting out with no business experience and no jewellery training – her enthusiasm for the article paid off.&#10;&#10;Alice : And that means it was successful.&#10;&#10;Rob : A bit like me…&#10;&#10;Alice : Yes. OK, I think it's time for the answer to today's quiz question. I asked: How young were the founders of Facebook and Microsoft when first set up their companies? Were they… a) junior high-school students, b) high-school students or c) university students?&#10;&#10;Rob : I said b) high-school students.&#10;&#10;Alice : And you were wrong, I'm afraid, Rob. Sorry.&#10;&#10;Rob : Again.&#10;&#10;Alice : Yes. Mark Zuckerberg and Bill Gates were both university students when they started their companies. Zuckerberg was studying at Harvard in the US when he launched Facebook in 2004. And Bill Gates took a break from Harvard to launch Microsoft in 1976, but never returned to his studies.&#10;&#10;Rob : Both at Harvard – that's a coincidence. I wonder if the bar there was any good… Now can we hear the words we learned today?&#10;&#10;Alice : Yes. OK. They are:&#10;drawbacks&#10;executives&#10;on board&#10;bring something to the table&#10;keen&#10;(business) acumen&#10;acquire&#10;paid off&#10;&#10;Rob : Thanks, Alice. Well, that's the end of today's 6 Minute English. We hope you've enjoyed the new vocabulary we brought to the table.&#10;&#10;Alice : Very good.&#10;&#10;Rob : Please join us again soon!&#10;&#10;Both : Bye." wrapText="true">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </TextArea>
+                                          <Text layoutX="331.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transcript">
+                                             <font>
+                                                <Font name="Roboto Light" size="19.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </AnchorPane>
+                                </content>
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </TitledPane>
+                            <TitledPane animated="false" opacity="0.0" text="Ghost">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <GridPane layoutX="125.0" layoutY="110.0" prefHeight="416.0" prefWidth="748.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                            <columnConstraints>
+                                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                            </columnConstraints>
+                                            <rowConstraints>
+                                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                            </rowConstraints>
+                                             <children>
+                                                <BorderPane fx:id="audioPane1" prefHeight="117.0" prefWidth="748.0" />
+                                                <BorderPane fx:id="audioPane2" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                                                <BorderPane fx:id="audioPane3" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1" />
+                                             </children>
+                                          </GridPane>
+                                       </children></AnchorPane>
+                              </content>
+                            </TitledPane>
+                          </panes>
+                        </Accordion>
+                        <ImageView fitHeight="104.0" fitWidth="98.0" layoutX="8.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../ressources/logos/6minutes.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="132.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BBC World Service propose 6 mintes English to learn more about various subjects">
+                           <font>
+                              <Font name="Roboto Light" size="14.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="The English we speak">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Accordion layoutY="117.0" prefHeight="500.0" prefWidth="750.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="117.0">
+                           <panes>
+                              <TitledPane animated="false" text="The university of life">
+                                 <content>
+                                    <AnchorPane prefHeight="280.0" prefWidth="779.0">
+                                       <children>
+                                          <Button fx:id="playButton4" layoutX="141.0" layoutY="53.0" mnemonicParsing="false" onAction="#playPauseAudio4" prefHeight="0.0" prefWidth="494.0" text="►">
+                                             <font>
+                                                <Font name="Roboto Light" size="20.0" />
+                                             </font>
+                                          </Button>
+                                          <TextArea editable="false" layoutX="17.0" layoutY="138.0" prefHeight="276.0" prefWidth="741.0" text="Rob&#10;Hello welcome to The English We Speak from BBC Learning English. I'm Rob.&#10;&#10;Feifei&#10;Oh hello…I'm Feifei.&#10;&#10;Rob&#10;What's wrong Feifei?&#10;&#10;Feifei&#10;I'm stressed – I've got an exam tomorrow – I hate exams.&#10;&#10;Rob&#10;Me too. What you need to do is plan your revision a bit more, take lots of breaks, and maybe go for a run.&#10;&#10;Feifei&#10;You seem to know a lot about preparing for exams. Where did you study?  &#10;&#10;Rob&#10;Oh nowhere you would have heard of. It's called the university of life.&#10;&#10;Feifei&#10;The university of life. Is that in London?&#10;&#10;Rob&#10;It's doesn't actually exist – when someone says they've been to the university of life it means they are wise but not necessarily educated – they've learnt everything just from experiencing life.&#10;&#10;Feifei&#10;I see. Hmm, so no exams.&#10;&#10;Rob&#10;That's right. I've just got a qualification in life! Let's hear some more examples of this phrase…&#10;&#10;Examples&#10;I set up the business without any qualifications – everything I learnt was from the university of life.&#10;&#10;The university of life taught me to be polite to everyone you meet; you never know when you might see them again.&#10;&#10;Feifei&#10;The university of life – it's where you learn from life not books. So I should learn a lesson from you Rob?  &#10;&#10;Rob&#10;Yes, chill out – don't stress about exams – they're a waste of time.&#10;&#10;Feifei&#10;Really!!! Hold on a minute. If I remember correctly, you failed your exams and you were kicked out of university.&#10;&#10;Rob&#10;Well…err… maybe. But that was a life experience… and I learned that studying wasn't for me.&#10;&#10;Feifei&#10;Hmmm, it sounds like you've been to The school of hard knocks.&#10;&#10;Rob&#10;The school of hard knocks?&#10;&#10;Feifei&#10;Yes, it's an unpleasant experience that you learn from. Anyway, I'm off to revise for my exams – I'd rather stay at my university rather than go to yours!&#10;&#10;Rob&#10;Fair enough.&#10;&#10;Both&#10;Bye." wrapText="true">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </TextArea>
+                                          <Text layoutX="345.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transcript">
+                                             <font>
+                                                <Font name="Roboto Light" size="19.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </TitledPane>
+                              <TitledPane animated="false" text="Hangry">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <Text layoutX="331.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transcript">
+                                             <font>
+                                                <Font name="Roboto Light" size="19.0" />
+                                             </font>
+                                          </Text>
+                                          <TextArea editable="false" layoutX="4.0" layoutY="103.0" prefHeight="276.0" prefWidth="741.0" text="Feifei&#10;Hello and welcome to The English We Speak. I'm Feifei and joining me is Sian.&#10;&#10;Sian                                          &#10;Hi everyone.&#10;&#10;Feifei&#10;Are you OK Sian?&#10;&#10;Sian&#10;Yes, of course I am! Can we just get on with the programme?!&#10;&#10;Feifei&#10;Um Sian, have you had your breakfast today?&#10;&#10;Sian&#10;No I haven't. I overslept and then the bus was late and, uh, it's just not been a good day so far!&#10;&#10;Feifei&#10;Hmmm, maybe we should do the programme once you've eaten something. Here have this chocolate bar.&#10;&#10;Sian&#10;Oh I'm sorry, I know I'm a bit hangry this morning. I do tend to get moody when I don't eat. My husband's always complaining about it!&#10;&#10;Feifei&#10;Hangry? Don't you mean 'angry'?&#10;&#10;Sian&#10;No, 'hangry'. 'Hangry' describes someone who is angry – or irritable – as a result of being hungry. Like me today – I'm feeling a bit annoyed because I haven't eaten breakfast!&#10;&#10;Feifei&#10;You certainly are! So 'hangry' is a combination of 'angry' and 'hungry'?&#10;&#10;Sian&#10;Yes, that's right. Let's hear a few examples.&#10;&#10;Examples&#10;A: This food is taking forever to arrive. I'm not coming to this restaurant again.&#10;B: Oh dear, someone's getting hangry! Let's get you some food quickly! &#10;&#10;My boyfriend is a nightmare whenever he misses a meal; he gets so hangry!&#10;&#10;People tend to get a bit hangry when their blood sugar level drops.&#10;&#10;Feifei&#10;Interesting. You wouldn't catch me getting 'hangry' though, I'm always very chilled.&#10;&#10;Sian&#10;Is that right Feifei? You know, I'm feeling much happier after eating that chocolate bar. Shall we do the programme again? I feel ready now. &#10;&#10;Feifei&#10;No! come on that will do. I'm starving!&#10;&#10;Sian&#10;Oh dear, it seems like you're a bit hangry too Feifei! Let's get you to the cafe now.&#10;&#10;Feifei&#10;Good idea! Let's go." wrapText="true">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </TextArea>
+                                          <Button fx:id="playButton5" layoutX="128.0" layoutY="14.0" mnemonicParsing="false" onAction="#playPauseAudio5" prefHeight="0.0" prefWidth="494.0" text="►">
+                                             <font>
+                                                <Font name="Roboto Light" size="20.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </TitledPane>
+                              <TitledPane animated="false" text="Drama Queen">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <Button fx:id="playButton6" layoutX="128.0" layoutY="21.0" mnemonicParsing="false" onAction="#playPauseAudio6" prefHeight="0.0" prefWidth="494.0" text="►">
+                                             <font>
+                                                <Font name="Roboto Light" size="20.0" />
+                                             </font>
+                                          </Button>
+                                          <TextArea editable="false" layoutX="4.0" layoutY="117.0" prefHeight="276.0" prefWidth="741.0" text="Callum&#10;Oh, hello, Feifei. Already here to present The English We Speak.&#10;&#10;Feifei&#10;What do you mean by 'already here', Callum?! And what are all these bags you have with you?&#10;&#10;Callum&#10;Shopping.&#10;&#10;Feifei&#10;Shopping?! I'm here in the studio, waiting for you and you went shopping?! This is absurd.&#10;&#10;Callum&#10;Oh, come on, Feifei, we still have a couple of minutes to go. Don't be such a drama queen!&#10;&#10;Feifei&#10;Drama queen?!&#10;&#10;Callum&#10;Yes, drama queen! We say someone is a drama queen when he or she becomes very angry or upset over tiny small things like… &#10;&#10;Feifei&#10;… like you being late…&#10;&#10;Callum&#10;Not late - shopping. Now, let's hear some examples of how the expression 'drama queen' is used.&#10;&#10;Examples&#10;A: Oh, it's raining and my new hairdo is ruined! All those hours in the hairdresser for nothing!&#10;B: Don't be such a drama queen. Here, take my umbrella.&#10;&#10;I'm not dining out with Peter anymore. If the dish is not cooked exactly the way he likes he makes a big fuss. He's such a drama queen!&#10;&#10;Callum&#10;That's it, Feifei. And now, here, in my bag…&#10;&#10;Feifei&#10;What, now you're going to sort out your shopping?&#10;&#10;Callum&#10;This is for you, Feifei!&#10;&#10;Feifei&#10;Oh, a present for me?! Oh… you shouldn't have…  &#10;&#10;Callum&#10;You didn't want people to know it's your birthday, but… well, happy birthday, Feifei!&#10;&#10;Feifei&#10;Ohhh! I don't know what to say… I guess I'll have to take back my words. Thank you, Callum. You know what? We can make the programme a bit later. Let's celebrate!&#10;&#10;Callum&#10;OK.&#10;&#10;Both&#10;Bye!" wrapText="true">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </TextArea>
+                                          <Text layoutX="331.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transcript">
+                                             <font>
+                                                <Font name="Roboto Light" size="19.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </TitledPane>
+                              <TitledPane animated="false" opacity="0.0" text="Ghost">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <GridPane layoutX="125.0" layoutY="110.0" prefHeight="416.0" prefWidth="748.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <children>
+                                                <BorderPane fx:id="audioPane4" prefHeight="117.0" prefWidth="748.0" />
+                                                <BorderPane fx:id="audioPane5" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                                                <BorderPane fx:id="audioPane6" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1" />
+                                             </children>
+                                             <columnConstraints>
+                                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                             </columnConstraints>
+                                             <rowConstraints>
+                                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                             </rowConstraints>
+                                          </GridPane>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                           </panes>
+                        </Accordion>
+                        <Text layoutX="136.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BBC World Service propose &quot;The English we speak&quot; to learn new expressions">
+                           <font>
+                              <Font name="Roboto Light" size="14.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="104.0" fitWidth="98.0" layoutX="6.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../ressources/logos/englishWeSpeak.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

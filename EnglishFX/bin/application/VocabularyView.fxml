@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="650.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.VocabularyController">
+   <children>
+      <TabPane layoutX="14.0" layoutY="20.0" prefHeight="650.0" prefWidth="750.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Lesson">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Accordion layoutX="56.0" layoutY="86.0" prefHeight="617.0" prefWidth="750.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <panes>
+                            <TitledPane animated="false" prefHeight="429.0" prefWidth="750.0" text="Travelling">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <TableView fx:id="travellingTable" layoutX="35.0" layoutY="30.0" prefHeight="538.0" prefWidth="748.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                            <columns>
+                                              <TableColumn fx:id="travelCol1" prefWidth="372.0000365972519" text="Word" />
+                                              <TableColumn fx:id="travelCol2" prefWidth="356.9999694824219" text="Translation" />
+                                            </columns>
+                                          </TableView>
+                                       </children></AnchorPane>
+                              </content>
+                            </TitledPane>
+                            <TitledPane animated="false" text="Environnement">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <TableView fx:id="enviTable" prefHeight="512.0" prefWidth="748.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <columns>
+                                                <TableColumn fx:id="enviCol1" prefWidth="372.0000365972519" text="Word" />
+                                                <TableColumn fx:id="enviCol2" prefWidth="356.9999694824219" text="Translation" />
+                                             </columns>
+                                          </TableView>
+                                       </children></AnchorPane>
+                              </content>
+                            </TitledPane>
+                              <TitledPane prefHeight="200.0" prefWidth="200.0" text="Company">
+                                 <content>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <TableView fx:id="compTable" layoutX="98.0" layoutY="69.0" prefHeight="538.0" prefWidth="748.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                            <columns>
+                                              <TableColumn fx:id="compCol1" prefWidth="364.00000607967377" text="Word" />
+                                              <TableColumn fx:id="compCol2" prefWidth="363.0" text="Translation" />
+                                            </columns>
+                                          </TableView>
+                                       </children></AnchorPane>
+                                 </content>
+                              </TitledPane>
+                          </panes>
+                        </Accordion>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Exercises">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Accordion layoutX="95.0" layoutY="118.0" prefHeight="499.0" prefWidth="750.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="118.0">
+                          <panes>
+                            <TitledPane animated="false" prefHeight="477.0" prefWidth="750.0" text="Travelling">
+                                 <content>
+                                    <AnchorPane>
+                                       <children>
+                                          <Text layoutX="155.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="French Word">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="435.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="English Translation">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text fx:id="wt1" layoutX="154.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="travel1">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text fx:id="wt2" layoutX="154.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="travel2">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text fx:id="wt3" layoutX="154.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="travel3">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <TextField fx:id="tft1" layoutX="408.0" layoutY="103.0" />
+                                          <TextField fx:id="tft2" layoutX="408.0" layoutY="155.0" />
+                                          <TextField fx:id="tft3" layoutX="408.0" layoutY="212.0" />
+                                          <Button layoutX="135.0" layoutY="301.0" mnemonicParsing="false" onAction="#newWords" prefHeight="26.0" prefWidth="153.0" text="New words" />
+                                          <Button layoutX="412.0" layoutY="301.0" mnemonicParsing="false" onAction="#checkResultTravel" prefHeight="26.0" prefWidth="155.0" text="Check results" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                            </TitledPane>
+                            <TitledPane animated="false" text="Environnement">
+                                 <content>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Text layoutX="168.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="French Word">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="440.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="English Translation">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text fx:id="we1" layoutX="153.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="envi1">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text fx:id="we2" layoutX="151.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="envi 2">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text fx:id="we3" layoutX="152.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="envi3">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <TextField fx:id="tfe1" layoutX="413.0" layoutY="110.0" />
+                                          <TextField fx:id="tfe2" layoutX="413.0" layoutY="168.0" />
+                                          <TextField fx:id="tfe3" layoutX="413.0" layoutY="228.0" />
+                                          <Button layoutX="412.0" layoutY="315.0" mnemonicParsing="false" onAction="#checkResultEnvi" prefHeight="26.0" prefWidth="165.0" text="Check results" />
+                                          <Button layoutX="123.0" layoutY="315.0" mnemonicParsing="false" onAction="#newWords" prefHeight="26.0" prefWidth="163.0" text="New words" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                            </TitledPane>
+                            <TitledPane animated="false" text="Company">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <Text layoutX="166.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="French Word">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="444.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="English Translation">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text fx:id="wc1" layoutX="170.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="compa1">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text fx:id="wc2" layoutX="170.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="compa2">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <Text fx:id="wc3" layoutX="170.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="compa3">
+                                             <font>
+                                                <Font name="Roboto Light" size="13.0" />
+                                             </font>
+                                          </Text>
+                                          <TextField fx:id="tfc1" layoutX="417.0" layoutY="113.0" />
+                                          <TextField fx:id="tfc2" layoutX="417.0" layoutY="176.0" />
+                                          <TextField fx:id="tfc3" layoutX="417.0" layoutY="245.0" />
+                                          <Button layoutX="421.0" layoutY="332.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="159.0" text="Check results" />
+                                          <Button layoutX="137.0" layoutY="332.0" mnemonicParsing="false" onAction="#newWords" prefHeight="26.0" prefWidth="158.0" text="New words" />
+                                       </children></AnchorPane>
+                              </content>
+                            </TitledPane>
+                          </panes>
+                        </Accordion>
+                        <ImageView fitHeight="91.0" fitWidth="63.0" layoutX="26.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../ressources/images/graduation.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="117.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For each theme, find the translation of the french word">
+                           <font>
+                              <Font name="Roboto Light" size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="650.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GrammarController">
+   <children>
+      <TabPane layoutX="14.0" layoutY="20.0" prefHeight="650.0" prefWidth="750.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Lesson">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Accordion layoutX="42.0" layoutY="76.0" prefHeight="617.0" prefWidth="750.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <panes>
+                            <TitledPane animated="false" text="Tenses">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <Accordion prefHeight="486.0" prefWidth="748.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                            <panes>
+                                              <TitledPane animated="false" text="Present Simple">
+                                                   <content>
+                                                      <TableView fx:id="presSimpleTab" prefHeight="200.0" prefWidth="200.0">
+                                                        <columns>
+                                                          <TableColumn fx:id="presSimpleCol1" prefWidth="379.0000365972519" text="What for ?" />
+                                                          <TableColumn fx:id="presSimpleCol2" prefWidth="349.9999694824219" text="Example" />
+                                                        </columns>
+                                                      </TableView>
+                                                   </content>
+                                              </TitledPane>
+                                              <TitledPane animated="false" text="Present Continious : be + verb + ing">
+                                                   <content>
+                                                      <TableView fx:id="presContiTab" prefHeight="200.0" prefWidth="200.0">
+                                                        <columns>
+                                                          <TableColumn fx:id="presContiCol1" prefWidth="344.00000607967377" text="What for ?" />
+                                                          <TableColumn fx:id="presContiCol2" prefWidth="383.0" text="Example" />
+                                                        </columns>
+                                                      </TableView>
+                                                   </content>
+                                              </TitledPane>
+                                              <TitledPane animated="false" text="Present Perfect : have + verb + ed">
+                                                   <content>
+                                                      <TableView fx:id="presPerfectTab" prefHeight="200.0" prefWidth="200.0">
+                                                        <columns>
+                                                          <TableColumn fx:id="presPerfectCol1" prefWidth="363.00000607967377" text="What for ?" />
+                                                          <TableColumn fx:id="presPerfectCol2" prefWidth="364.0" text="Example" />
+                                                        </columns>
+                                                      </TableView>
+                                                   </content>
+                                              </TitledPane>
+                                                <TitledPane prefHeight="200.0" prefWidth="200.0" text="Present Perfect Continious : have been + verb + ing">
+                                                   <content>
+                                                      <TableView fx:id="presPerfectContiTab" prefHeight="200.0" prefWidth="200.0">
+                                                        <columns>
+                                                          <TableColumn fx:id="presPerfectContiCol1" prefWidth="355.00000607967377" text="What for ?" />
+                                                          <TableColumn fx:id="presPerfectContiCol2" prefWidth="372.0" text="Example" />
+                                                        </columns>
+                                                      </TableView>
+                                                   </content>
+                                                </TitledPane>
+                                                <TitledPane prefHeight="200.0" prefWidth="200.0" text="Past Simple">
+                                                   <content>
+                                                      <TableView fx:id="pastSimpleTab" prefHeight="200.0" prefWidth="200.0">
+                                                        <columns>
+                                                          <TableColumn fx:id="pastSimpleCol1" prefWidth="352.00000607967377" text="What for ?" />
+                                                          <TableColumn fx:id="pastSimpleCol2" prefWidth="375.0" text="Example" />
+                                                        </columns>
+                                                      </TableView>
+                                                   </content>
+                                                </TitledPane>
+                                                <TitledPane prefHeight="200.0" prefWidth="200.0" text="Past Continious : be + verb + ing">
+                                                   <content>
+                                                      <TableView fx:id="pastContiTab" prefHeight="200.0" prefWidth="200.0">
+                                                        <columns>
+                                                          <TableColumn fx:id="pastContiCol1" prefWidth="360.00000607967377" text="What for ?" />
+                                                          <TableColumn fx:id="pastContiCol2" prefWidth="367.0" text="Example" />
+                                                        </columns>
+                                                      </TableView>
+                                                   </content>
+                                                </TitledPane>
+                                                <TitledPane prefHeight="200.0" prefWidth="200.0" text="Past Perfect : had + verb + ed">
+                                                   <content>
+                                                      <TableView fx:id="pastPerfectTab" prefHeight="200.0" prefWidth="200.0">
+                                                        <columns>
+                                                          <TableColumn fx:id="pastPerfectCol1" prefWidth="356.00000607967377" text="What for ?" />
+                                                          <TableColumn fx:id="pastPerfectCol2" prefWidth="371.0" text="Example" />
+                                                        </columns>
+                                                      </TableView>
+                                                   </content>
+                                                </TitledPane>
+                                                <TitledPane prefHeight="200.0" prefWidth="200.0" text="Past Perfect Continious : had been + verb + ing">
+                                                   <content>
+                                                      <TableView fx:id="pastPerfectContiTab" prefHeight="200.0" prefWidth="200.0">
+                                                        <columns>
+                                                          <TableColumn fx:id="pastPerfectContiCol1" prefWidth="362.00000607967377" text="What for ?" />
+                                                          <TableColumn fx:id="pastPerfectContiCol2" prefWidth="365.0" text="Example" />
+                                                        </columns>
+                                                      </TableView>
+                                                   </content>
+                                                </TitledPane>
+                                                <TitledPane prefHeight="200.0" prefWidth="200.0" text="Futur Simple : will">
+                                                   <content>
+                                                      <TableView fx:id="futurSimpleTab" prefHeight="200.0" prefWidth="200.0">
+                                                        <columns>
+                                                          <TableColumn fx:id="futurSimpleCol1" prefWidth="360.00000607967377" text="What for ?" />
+                                                          <TableColumn fx:id="futurSimpleCol2" prefWidth="367.0" text="Example" />
+                                                        </columns>
+                                                      </TableView>
+                                                   </content>
+                                                </TitledPane>
+                                                <TitledPane prefHeight="200.0" prefWidth="200.0" text="Futur Continious :  will be + ing">
+                                                   <content>
+                                                      <TableView fx:id="futurContiTab" prefHeight="200.0" prefWidth="200.0">
+                                                        <columns>
+                                                          <TableColumn fx:id="futurContiCol1" prefWidth="356.00000607967377" text="What for ?" />
+                                                          <TableColumn fx:id="futurContiCol2" prefWidth="371.0" text="Example" />
+                                                        </columns>
+                                                      </TableView>
+                                                   </content>
+                                                </TitledPane>
+                                                <TitledPane prefHeight="200.0" prefWidth="200.0" text="Futur Perfect : will have + ed">
+                                                   <content>
+                                                      <TableView fx:id="futurPerfectTab" prefHeight="200.0" prefWidth="200.0">
+                                                        <columns>
+                                                          <TableColumn fx:id="futurPerfectCol1" prefWidth="352.00000607967377" text="What for ?" />
+                                                          <TableColumn fx:id="futurPerfectCol2" prefWidth="375.0" text="Example" />
+                                                        </columns>
+                                                      </TableView>
+                                                   </content>
+                                                </TitledPane>
+                                                <TitledPane prefHeight="200.0" prefWidth="200.0" text="Futur Perfect Continious : will have been + ing">
+                                                   <content>
+                                                      <TableView fx:id="futurPerfectContiTab" prefHeight="200.0" prefWidth="200.0">
+                                                        <columns>
+                                                          <TableColumn fx:id="futurPerfectContiCol1" prefWidth="355.00000607967377" text="What for ?" />
+                                                          <TableColumn fx:id="futurPerfectContiCol2" prefWidth="372.0" text="Example" />
+                                                        </columns>
+                                                      </TableView>
+                                                   </content>
+                                                </TitledPane>
+                                            </panes>
+                                          </Accordion>
+                                       </children></AnchorPane>
+                              </content>
+                            </TitledPane>
+                            <TitledPane animated="false" text="Possessive">
+                                 <content>
+                                    <TableView fx:id="possTab" prefHeight="200.0" prefWidth="200.0">
+                                      <columns>
+                                        <TableColumn fx:id="possCol1" prefWidth="375.0" text="Adjectives" />
+                                        <TableColumn fx:id="possCol2" prefWidth="373.0" text="Pronouns" />
+                                      </columns>
+                                    </TableView>
+                                 </content>
+                            </TitledPane>
+                              <TitledPane prefHeight="200.0" prefWidth="200.0" text="Pronouns">
+                                 <content>
+                                    <TableView fx:id="pronTab" prefHeight="200.0" prefWidth="200.0">
+                                      <columns>
+                                        <TableColumn fx:id="pronCol1" prefWidth="364.0" text="Reflexive" />
+                                        <TableColumn fx:id="pronCol2" prefWidth="384.0" text="Object" />
+                                      </columns>
+                                    </TableView>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane prefHeight="200.0" prefWidth="200.0" text="Passive and causative (examples)">
+                                 <content>
+                                    <TableView fx:id="PCTab" prefHeight="200.0" prefWidth="200.0">
+                                      <columns>
+                                        <TableColumn fx:id="passiveCol" prefWidth="372.0" text="Passive" />
+                                        <TableColumn fx:id="causativeCol" prefWidth="376.0" text="Causative" />
+                                      </columns>
+                                    </TableView>
+                                 </content>
+                              </TitledPane>
+                            <TitledPane animated="false" text="Link words">
+                                 <content>
+                                    <TableView fx:id="LWTab" prefHeight="200.0" prefWidth="200.0">
+                                      <columns>
+                                        <TableColumn fx:id="LWCol1" prefWidth="365.0" text="Word" />
+                                        <TableColumn fx:id="LWCol2" prefWidth="383.0" text="Translation" />
+                                      </columns>
+                                    </TableView>
+                                 </content>
+                            </TitledPane>
+                          </panes>
+                        </Accordion>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Exercises">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="69.0" fitWidth="73.0" layoutX="31.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../ressources/images/graduation.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="125.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For each phrase, choose the correct answer">
+                           <font>
+                              <Font name="Roboto Light" size="18.0" />
+                           </font>
+                        </Text>
+                        <GridPane fx:id="questionsPane" layoutX="13.0" layoutY="146.0" prefHeight="471.0" prefWidth="737.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="568.0" minWidth="10.0" prefWidth="496.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="456.0" minWidth="10.0" prefWidth="127.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="242.0" minWidth="10.0" prefWidth="124.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sonia looks like she's ___________ asleep any minute !">
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="When I leave school, I'm ___________ a journalist." GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The airline industry's ___________ to cut costs in the near future." GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Watch out or you're  ___________ into touble !" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="When are they ___________ that they have to improve their customer service ?" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="When __________ get round to having new business cards printed ?" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="_________ to be sick ?" GridPane.rowIndex="6">
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="I think house prices are  ___________ in about six months." GridPane.rowIndex="7">
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The Prime Minister __________ all of your questions in due course." GridPane.rowIndex="8">
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Karen, _________ I give you a hand with this report ?" GridPane.rowIndex="9">
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="I can't come to the beach this weekend as __________ my grandparents." GridPane.rowIndex="10">
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="What time  ___________ ?" GridPane.rowIndex="11">
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text=" ___________ we move on to the next item on the agenda now ?" GridPane.rowIndex="12">
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The last bus  ___________ at midnight." GridPane.rowIndex="13">
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="I'm afraid  ___________ time to finished all this work today." GridPane.rowIndex="14">
+                                 <font>
+                                    <Font name="Roboto Light" size="13.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </GridPane>
+                        <Text layoutX="50.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Questions">
+                           <font>
+                              <Font name="Roboto Light" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="534.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Answers">
+                           <font>
+                              <Font name="Roboto Light" size="13.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="637.0" layoutY="114.0" mnemonicParsing="false" onAction="#checkResult" text="Check results">
+                           <font>
+                              <Font name="Roboto Light" size="13.0" />
+                           </font>
+                        </Button>
+                        <Text fx:id="score" layoutX="650.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0">
+                           <font>
+                              <Font name="Roboto Light" size="13.0" />
+                           </font>
+                        </Text>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

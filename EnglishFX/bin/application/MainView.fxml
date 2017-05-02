@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="chooseLevelPane" prefHeight="650.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <SplitPane fx:id="splitPane" dividerPositions="0.37276785714285715" layoutX="191.0" layoutY="109.0" orientation="VERTICAL" prefHeight="450.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane fx:id="directionLevelPane" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <ImageView fitHeight="182.0" fitWidth="314.0" layoutX="377.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../ressources/images/flags_round.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="230.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Easy English">
+                     <font>
+                        <Font name="Roboto Light" size="49.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="230.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Depending on what you want to improve, you have 3 options !">
+                     <font>
+                        <Font name="Roboto Light" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="chooseLevel" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" styleClass="anchor">
+               <children>
+                  <ImageView fitHeight="409.0" fitWidth="1000.0" layoutX="-2.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../ressources/images/backgroundG.png" />
+                     </image>
+                  </ImageView>
+                  <Pane layoutX="43.0" layoutY="56.0" prefHeight="290.0" prefWidth="282.0" style="-fx-border-color: black;">
+                     <children>
+                        <Text layoutX="24.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Irregular verbs &amp; Grammar">
+                           <font>
+                              <Font name="Roboto Light" size="20.0" />
+                           </font>
+                        </Text>
+                        <Button fx:id="beginnerButton" layoutX="80.0" layoutY="192.0" mnemonicParsing="false" onAction="#goBeginner" prefHeight="43.0" prefWidth="106.0" styleClass="btn" stylesheets="@application.css" text="Beginner">
+                           <font>
+                              <Font name="Roboto Light" size="13.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="53.0" fitWidth="55.0" layoutX="106.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../ressources/images/copperStar.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="358.0" layoutY="56.0" prefHeight="290.0" prefWidth="282.0" style="-fx-border-color: black;">
+                     <children>
+                        <Button fx:id="mediumButton" layoutX="87.0" layoutY="196.0" mnemonicParsing="false" onAction="#goMedium" prefHeight="43.0" prefWidth="106.0" text="Medium">
+                           <font>
+                              <Font name="Roboto Light" size="13.0" />
+                           </font>
+                        </Button>
+                        <Text layoutX="53.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vocabulary &amp; TOEIC">
+                           <font>
+                              <Font name="Roboto Light" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="57.0" fitWidth="55.0" layoutX="113.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../ressources/images/silverStar.png" />
+                           </image>
+                        </ImageView>
+                     </children></Pane>
+                  <Pane layoutX="673.0" layoutY="56.0" prefHeight="290.0" prefWidth="282.0" style="-fx-border-color: black;">
+                     <children>
+                        <Button fx:id="advancedButton" layoutX="88.0" layoutY="199.0" mnemonicParsing="false" onAction="#goAdvanced" prefHeight="43.0" prefWidth="106.0" text="Advanced">
+                           <font>
+                              <Font name="Roboto Light" size="13.0" />
+                           </font>
+                        </Button>
+                        <Text layoutX="14.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="General knowledge &amp; Articles">
+                           <font>
+                              <Font name="Roboto Light" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="53.0" fitWidth="55.0" layoutX="114.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../ressources/images/goldStar.png" />
+                           </image>
+                        </ImageView>
+                     </children></Pane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
